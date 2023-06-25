@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;   
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+span.logo{                                              /* logo   Busicol*/
+    color:rgb(243, 114, 114);
+}
+
+button.searchbutton{                                     /*search button */
+    color: rgb(255, 255, 255);
+    background-color: #ff7200;
+    border: 5px;
+    width: 80px;
+    height: 50px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+div.image{                                                /* background image*/
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0),rgba(0, 0, 0, 0)), url(./men.png.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 90px;
+    
+
+}
+
+nav ul li {                                        /* calumn to make a row */
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+    color: white;
+}
+nav div.right{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 300px;
+    align-items: center;
+    padding-top: 1px;
+}
+nav div.left{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px;
+    padding-top: 12px;
+    font-size: 1.5rem;
+  }
+
+div.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+   color: white;
+   font-size: larger;
+   padding-top: 150px;
+}
+
+.ourservicesbutton{
+   
+   width: 160px;
+   height: 40px;
+   background: #ff7200;
+   border: none;
+   margin-bottom: 10px;
+   margin-left: 20px;
+   font-size: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: .4s ease;
+    
+}
+
+
+
+div.secondpage{                                      /* Second       page*/
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+*{
+    box-sizing: border-box;                            /* image adding*/
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+
+dic.right1{
+    padding-left: 400px;
+}
